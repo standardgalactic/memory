@@ -20,3 +20,29 @@
 * [Micromegas Visualizer](https://standardgalactic.github.io/memory/micromegas/visualizer.html)
 
 ![](persistent-worlds.png)
+
+Current Version: 0.1.0
+
+## Repository management
+
+Use the management script for common workflows:
+
+```bash
+./scripts/manage.sh help
+./scripts/manage.sh clean
+./scripts/manage.sh build
+./scripts/manage.sh run dev
+./scripts/manage.sh run test
+./scripts/manage.sh run prod
+./scripts/manage.sh release
+```
+
+Version updates are handled through:
+
+```bash
+./scripts/manage.sh version bump
+./scripts/manage.sh version minor
+./scripts/manage.sh version major
+```
+
+These commands update both `VERSION` and the `Current Version` line in this README.
