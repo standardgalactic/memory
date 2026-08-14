@@ -1,3 +1,4 @@
+[Selective Continuation](https://standardgalactic.github.io/memory/selective-continuation.pdf)
 
 [Building Forth from Spherepop Primitives](https://standardgalactic.github.io/memory/building-forth.pdf)
 <!--
@@ -46,3 +47,5 @@ Version updates are handled through:
 ```
 
 These commands update both `VERSION` and the `Current Version` line in this README.
+
+![](flyxion-press.png)

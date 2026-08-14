@@ -1,0 +1,13 @@
+[package]
+name = "counterfactual-git"
+version = "0.1.0"
+edition = "2024"
+authors = ["Flyxion"]
+license = "MIT"
+description = "Version control for histories that should never have existed"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
